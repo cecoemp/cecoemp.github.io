@@ -2726,12 +2726,12 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: cover;
 			cursor: default;
-			height: 40vh;
-			max-height: 40em;
-			min-height: 23em;
+			height: 20vh;
+			max-height: 15em;
+			min-height: 15em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 20%;
 		}
 
 			.tiles article .image {
@@ -2806,7 +2806,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 30%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
@@ -3402,7 +3402,7 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 2.25em;
 		}
 
 		#banner > .inner {
@@ -3461,8 +3461,8 @@ input, select, textarea {
 
 		#banner.major {
 			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
+			min-height: 20em;
+			max-height: 20em;
 		}
 
 			#banner.major.alt {
