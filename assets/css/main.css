@@ -280,6 +280,8 @@ input, select, textarea {
 	}
 
 		hr.major {
+			width: 65em;
+
 			margin: 3em 0;
 		}
 
@@ -1770,28 +1772,27 @@ input, select, textarea {
 	}
 
 	header.major {
-		width: -moz-max-content;
-		width: -webkit-max-content;
-		width: -ms-max-content;
-		width: max-content;
+		width: 65em;
 		margin-bottom: 2em;
 	}
 
 		header.major > :first-child {
 			margin-bottom: 0;
-			width: calc(100% + 0.5em);
+			width: 65em;
+
 		}
 
 			header.major > :first-child:after {
+				width: 65em;
 				content: '';
 				background-color: #ffffff;
 				display: block;
 				height: 2px;
-				margin: 0.325em 0 0.5em 0;
-				width: 100%;
+				
 			}
 
 		header.major > p {
+			width: 65em;
 			font-size: 0.7em;
 			font-weight: 600;
 			letter-spacing: 0.25em;
@@ -1800,17 +1801,18 @@ input, select, textarea {
 		}
 
 		body.is-ie header.major > :first-child:after {
-			max-width: 9em;
+			width: 65em;
 		}
 
 		body.is-ie header.major > h1:after {
-			max-width: 100% !important;
+			width: 65em;
 		}
 
 	@media screen and (max-width: 736px) {
 
 		header.major > p br {
 			display: none;
+			width: 65em;
 		}
 
 	}
@@ -2073,6 +2075,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
+		margin: 0 auto;
+		width: 65em;
 		border: solid 1px rgba(212, 212, 255, 0.1);
 		margin-bottom: 2em;
 		padding: 1.5em;
@@ -3460,12 +3464,14 @@ input, select, textarea {
 				}
 
 		#banner.major {
+			width: 65em;
 			height: 75vh;
 			min-height: 20em;
 			max-height: 20em;
 		}
 
 			#banner.major.alt {
+				width: 65em;
 				opacity: 0.75;
 			}
 
@@ -3542,6 +3548,7 @@ input, select, textarea {
 					}
 
 				#banner.major {
+					width: 65em;
 					height: auto;
 					min-height: 0;
 					max-height: none;
@@ -3560,6 +3567,7 @@ input, select, textarea {
 				}
 
 				#banner.major {
+					width: 65em;
 					padding: 8em 0 4em 0 ;
 				}
 
